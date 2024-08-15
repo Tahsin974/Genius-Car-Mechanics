@@ -3,13 +3,15 @@ import { useEffect, useState } from "react";
 const ServicesManage = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:4000/services")
+    const baseURL = 'http://localhost:4000';
+    fetch(`${baseURL}/services`)
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
 
   const handleDelete = id =>{
-    const url = `http://localhost:4000/services/${id}`
+    const baseURL = 'http://localhost:4000';
+    const url = `${baseURL}/services/${id}`
     fetch(url , {
         method:'DELETE'
     })

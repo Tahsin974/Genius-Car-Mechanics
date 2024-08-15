@@ -5,7 +5,8 @@ import { useParams } from "react-router-dom";
 const Booking = () => {
   const [service, setService] = useState({});
   const { serviceID } = useParams();
-  const url = `http://localhost:4000/services/${serviceID}`;
+  const baseURL = 'http://localhost:4000';
+  const url = `${baseURL}/services/${serviceID}`;
 
   //   axios.get(url).then((res) => setService(res.data));
 

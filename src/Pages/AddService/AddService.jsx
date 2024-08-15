@@ -7,8 +7,9 @@ const AddService = () => {
   const navigate = useNavigate()
   const { register, handleSubmit,reset } = useForm();
   const onSubmit = (data) => {
+    const baseURL = 'http://localhost:4000';
 
-    axios.post('http://localhost:4000/services', data)
+    axios.post(`${baseURL}/services`, data)
       .then(res => {
         if(res.data.insertedId){
             alert('service added successfully')
