@@ -4,7 +4,7 @@ import Expert from "../Expert/Expert";
 const Experts = () => {
     const [experts, setExperts] = useState([]);
     useEffect(() => {
-        fetch('./experts.json')
+        fetch('http://localhost:4000/trainers')
         .then(res => res.json())
         .then(data => setExperts(data))
     },[])
