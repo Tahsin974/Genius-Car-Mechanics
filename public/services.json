@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "service_name": "Oil Change",
+    "price": 39.99,
+    "time": 45,
+    "img": "https://i.ibb.co/pXm2HGQ/1.jpg",
+    "description": "Keep your engine running smoothly with a conventional oil change, including filter replacement."
+  },
+  {
+    "id": 2,
+    "service_name": "Tire Rotation",
+    "price": 24.50,
+    "time": 30,
+    "img": "https://i.ibb.co/dr4HfzW/2.jpg",
+    "description": "Extend the life of your tires and improve handling with our expert tire rotation service."
+  },
+  {
+    "id": 3,
+    "service_name": "Brake Pad Replacement",
+    "price": 129.95,
+    "time": 120,
+    "img": "https://i.ibb.co/ccpNqjL/3.jpg",
+    "description": "Ensure safe stopping power with a replacement of your front brake pads. Includes inspection of rotors."
+  },
+  {
+    "id": 4,
+    "service_name": "Air Filter Replacement",
+    "price": 19.99,
+    "time": 15,
+    "img": "https://i.ibb.co/y8fQvQQ/4.jpg",
+    "description": "Improve engine performance and fuel efficiency with a fresh air filter for your vehicle."
+  },
+  {
+    "id": 5,
+    "service_name": "Battery Replacement",
+    "price": 149.99,
+    "time": 60,
+    "img": "https://i.ibb.co/S6jFVQ1/5.jpg",
+    "description": "Get a reliable start every time with a new car battery installation. We offer various battery options to fit your needs."
+  },
+  {
+    "id": 6,
+    "service_name": "Multi-Point Inspection",
+    "price": 49.95,
+    "time": 45,
+    "img": "https://i.ibb.co/Y2K1xX8/6.jpg",
+    "description": "Gain peace of mind with a comprehensive inspection of your vehicle's key components, including fluids, brakes, and tires."
+  }
+]
