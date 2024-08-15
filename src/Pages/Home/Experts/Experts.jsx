@@ -3,8 +3,9 @@ import Expert from "../Expert/Expert";
 
 const Experts = () => {
     const [experts, setExperts] = useState([]);
+    const baseURL = 'https://genius-car-mechanics-server-jet.vercel.app';
     useEffect(() => {
-        fetch('http://localhost:4000/trainers')
+        fetch(`${baseURL}/trainers`)
         .then(res => res.json())
         .then(data => setExperts(data))
     },[])

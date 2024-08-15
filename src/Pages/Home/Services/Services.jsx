@@ -5,7 +5,7 @@ import './Services.css'
 
 const Services = () => {
     const [services,setServices] = useState([]);
-    const baseURL = 'http://localhost:4000'
+    const baseURL = 'https://genius-car-mechanics-server-jet.vercel.app';
     useEffect(()=>{
         fetch(`${baseURL}/services`)
         .then(res => res.json())

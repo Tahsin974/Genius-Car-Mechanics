@@ -7,7 +7,7 @@ const AddService = () => {
   const navigate = useNavigate()
   const { register, handleSubmit,reset } = useForm();
   const onSubmit = (data) => {
-    const baseURL = 'http://localhost:4000';
+    const baseURL = 'https://genius-car-mechanics-server-jet.vercel.app';
 
     axios.post(`${baseURL}/services`, data)
       .then(res => {
