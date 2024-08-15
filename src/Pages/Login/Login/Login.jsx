@@ -14,7 +14,7 @@ const Login = () => {
         signInUsingGoogle()
         .then((result) => {
             setUser(result.user)
-            navigate(location.state)
+            navigate(location.state ? location.state : '/home')
           }).catch((error) => {
            setError(error.message)
           }).finally(()=> setLoading(false))
